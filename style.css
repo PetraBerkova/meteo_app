@@ -1,0 +1,14 @@
+#tabulka div{
+    float: left;
+    margin: 10px;
+    
+}
+#tabulka p{
+    text-align: center;
+}
+#tabulka h2{
+    text-align: center;
+}
+#vypocet{
+    margin-bottom: 200px;
+}

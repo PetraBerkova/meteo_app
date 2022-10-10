@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>meteo</title>
+</head>
+<body>
+    <section id = 'tabulka'>
+    <h1>Londýn</h1>
+    
+    <div id="time"><h2>Čas</h2></div>
+    <div id="teplota"><h2>Teplota</h2> </div>
+    <div id="vietor"><h2>Rýchlosť vetra 10m</h2> </div>
+    <div id="tlak"><h2>Povrchový tlak</h2> </div>
+    <div id="vlhkost"><h2>Relativna vlhkost</h2> </div>
+</section>
+
+
+    <section id= chart>
+        <canvas id='myChart'></canvas>
+    </section>
+    <section id="kalkulacka">
+        <h2>Kalkulačka  ny vypočet indexu</h2>
+<input type="text" id="celsia" placeholder="stupne C">
+<input type="text " id="faradai" placeholder="stupne F">
+<input type="text"id='huminidy' placeholder="vlhkosť">
+<input type="button" value="odoslat"id='btn'>
+<div id="vypocet"></div>
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
